@@ -72,7 +72,7 @@ const team: TeamMember[] = [
       en: "Men's Styling · Precision Fades · Beard Design",
       sk: "Pánsky styling · Precízne fade strihy · Úprava brady",
     },
-    avatarSrc: "/haobaber.png",
+    avatarSrc: "/haobarber.jpg",
     avatarAlt: "Hao Barber — Master Barber at Be. Hair & Barber",
   },
   {
