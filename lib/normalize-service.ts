@@ -35,7 +35,7 @@ export function normalizeService(row: unknown): Service {
         : String(r.description),
     duration_minutes: toInt(r.duration_minutes, 0),
     price: toNum(r.price, 0),
-    price_max: r.price_max != null ? toNum(r.price_max, null) : null,
+    price_max: r.price_max != null ? toNum(r.price_max, 0) : null,
     category,
     sort_order: toInt(r.sort_order, 0),
     is_active: Boolean(r.is_active),

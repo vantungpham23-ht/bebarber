@@ -1,6 +1,7 @@
 export const SERVICE_CATEGORY_IDS = [
   "specials",
   "pansky",
+  "mens",
 ] as const;
 
 export type ServiceCategoryId = (typeof SERVICE_CATEGORY_IDS)[number];
@@ -15,4 +16,5 @@ export const SERVICE_CATEGORY_LABELS: Record<
 > = {
   specials: { en: "Special Offers", sk: "Špeciálna ponuka", icon: "★" },
   pansky: { en: "Pánsky Grooming", sk: "Pánsky Grooming", icon: "♂" },
+  mens: { en: "Men's", sk: "Pánsky", icon: "♂" },
 };
