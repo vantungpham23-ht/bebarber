@@ -1,0 +1,8 @@
+# Cloudflare Pages — output sau `npm run pages:build`
+# Deploy: npx wrangler pages deploy .vercel/output/static --project-name=YOUR_PROJECT
+
+name = "be-booking"
+compatibility_date = "2024-12-01"
+# Cần cho bundle dùng Node built-ins (vd. @supabase/supabase-js → node:stream) trên Workers.
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
