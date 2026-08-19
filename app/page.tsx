@@ -72,7 +72,7 @@ const team: TeamMember[] = [
       en: "Men's Styling · Precision Fades · Beard Design",
       sk: "Pánsky styling · Precízne fade strihy · Úprava brady",
     },
-    avatarSrc: "/jaace.png",
+    avatarSrc: "/haobaber.png",
     avatarAlt: "Hao Barber — Master Barber at Be. Hair & Barber",
   },
   {
@@ -86,7 +86,7 @@ const team: TeamMember[] = [
       en: "Men's grooming · Skin fades · Beard design",
       sk: "Pánsky grooming · Skin fades · Úprava brady",
     },
-    avatarSrc: "/son.svg",
+    avatarSrc: "/IMG_0141.JPG",
     avatarAlt: "Sonny – Master Barber at Be. Hair & Barber",
   },
 ];
